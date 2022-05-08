@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1">
+    <title>Fruits Slice</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container topContainer">
+            <div class="row">
+                <div id="lives" class="col-xs-6"></div>
+                <div id="scores" class="col-xs-6">
+                    Score: <span id="scorevalue">100</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div id="fruitsContainer" class="col-xs-12">
+                    <div id="header">
+                        <h1>Slice The Fruits</h1>
+                        <h2>Press The Start Button</h>
+                    </div>
+                    <img id="fruit1" class="fruit" src="">
+                    <div id="gameOver" class="col-xs-12"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="startreset">
+            <input type="button" class="btn" value="Start">
+        </div>
+
+    </div>
+    <audio id="sliceSound">
+        <source src="audio/shot.mp3">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+body {
+    background: url('images/itl.cat_wood-wallpaper_134470.png') center center fixed;
+    background-size: 100% 100%;
+    font-family: Sansita, cursive;
+}
+
+
+#fruitsContainer {
+    height: 450px !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#header {
+    text-align: center;
+}
+
+#header h1 {
+    color: #ffffff;
+    font-size: 115px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+#header h2 {
+    color: #ffffff;
+    font-size: 55px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+#gameOver {
+    height: 150px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+    text-align: center;
+    display: none;
+    font-size: 35px;
+    font-family: 'Sansita', sans-serif;
+    z-index: 1;
+}
+
+
+.startreset {
+    text-align: center;
+}
+
+
+.topContainer {
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+
+#lives {
+    text-align: left;
+    font-size: 15px;
+    font-family: cursive;
+    border: none;
+    margin-left: -10px;
+    visibility: hidden;
+
+}
+
+
+#scores {
+    text-align: right;
+    font-size: 25px;
+    letter-spacing: 0em;
+    padding-bottom: px;
+    font-family: Sansita, cursive;
+    border: none;
+    padding-right: -10px;
+    font-weight: bold;
+    visibility: hidden;
+    color: white;
+}
+
+
+.btn {
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    border-radius: 100%;
+    background: rgba(220, 19, 19, 0.7);
+    color: white;
+    cursor: pointer;
+}
+
+.btn:active {
+    color: black;
+}
+
+
+.imgLives {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+#fruit1 {
+    display: none;
+    position: absolute;
+    height: 55px;
+}
+
+
+@media(max-width: 420px) {
+    #fruitsContainer {
+        height: 500px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .topContainer {
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+    }
+    
+    #header h1 {
+        font-size: 62px;
+    }
+    #header h2 {
+        font-size: 48px;
+    }
+
+    .imgLives {
+        height: 40px;
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 100px;
+        letter-spacing: 0.1em;
+        font-size: 20px;
+        border-radius: 100%;
+        color: white;
+        background: rgba(220, 19, 19, 0.6);
+        padding: -30px;
+        cursor: pointer;
+    }
+
+    #scores {
+        text-align: right;
+        font-weight: bold;
+        font-size: 45px;
+        font-family: Sansita, cursive;
+        border: none;
+        letter-spacing: 0.1 em;
+        padding-right: -10px;
+        visibility: hidden;
+    }
+
+    #fruit1 {
+        display: none;
+        position: absolute;
+        height: 95px;
+    }
+
+    #gameOver {
+        height: 150px;
+        margin-top: 50px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        display: none;
+        font-size: 50px;
+        font-family: 'Sansita', sans-serif;
+        z-index: 1;
+    }
+
+}
+
+@media(min-width:768px) {
+    #fruitsContainer {
+        height: 500px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .topContainer {
+        height: 45px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+    }
+
+    .imgLives {
+        height: 45px;
+        width: 45px;
+        margin-right: 5px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 100px;
+        letter-spacing: 0.1em;
+        font-size: 20px;
+        border-radius: 100%;
+        color: white;
+        background: rgba(220, 19, 19, 0.6);
+        padding: -30px;
+        cursor: pointer;
+    }
+
+    #scores {
+        text-align: right;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: Sansita, cursive;
+        border: none;
+        letter-spacing: 0.1 em;
+        padding-right: -10px;
+        visibility: hidden;
+    }
+
+    #fruit1 {
+        display: none;
+        position: absolute;
+        height: 95px;
+    }
+
+    #gameOver {
+        height: 150px;
+        margin-top: 50px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        display: none;
+        font-size: 60px;
+        font-family: 'Sansita', sans-serif;
+        z-index: 1;
+    }
+
+}
