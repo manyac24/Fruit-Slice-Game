@@ -29,7 +29,7 @@ $(document).ready(function(){
         document.getElementById("sliceSound").play();
         clearInterval(action);
         $("#fruit1").hide();
-        setTimeout(startAction(), 2000);
+        setTimeout(startAction(), 1000);
     });
     
 
